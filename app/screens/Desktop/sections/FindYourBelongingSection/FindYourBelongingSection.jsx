@@ -13,6 +13,7 @@ export const FindYourBelongingSection = () => {
           C.S.I Ebenezar Church
         </h1>
 
+
         <div className="mt-8 md:mt-12 flex justify-center">
           <Button
             variant="outline"
