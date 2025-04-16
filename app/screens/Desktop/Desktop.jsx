@@ -6,6 +6,7 @@ import { FindYourBelongingSection } from "./sections/FindYourBelongingSection";
 import { LatestSermonSection } from "./sections/LatestSermonSection";
 import { ServiceTimingSection } from "./sections/ServiceTimingSection/ServiceTimingSection";
 import { WelcomeSection } from "./sections/WelcomeSection";
+import ServiceTiming from "./ServiceTiming";
 
 export const Desktop = () => {
   // Footer navigation links
@@ -110,6 +111,7 @@ export const Desktop = () => {
 
           <Separator className="w-full md:w-[819px] h-[3px] mt-8 md:mt-[50px] bg-[#275e8b]" />
         </div>
+              <ServiceTiming />
 
         {/* Footer */}
         <footer className="w-full mt-8 md:mt-16 bg-[#275e8b] text-white">
@@ -173,6 +175,7 @@ export const Desktop = () => {
             </div>
 
             <Separator className="w-full h-px mt-8 md:mt-[100px] bg-white" />
+
 
             <div className="text-center mt-4 md:mt-[16px]">
               <p className="text-white text-sm leading-[19.5px]">
